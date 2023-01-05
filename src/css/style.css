@@ -1,0 +1,43 @@
+:root {
+    --main-color: #bdc2c6;
+    --main-bg-color: #23282e;
+    --primary-color: #e47610;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--main-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.container {
+    width: 500px;
+    background-color: var(--main-bg-color);
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    box-shadow: 0px 1px 4px #0e1013;
+    font-weight: 600;
+}
+
+.body {
+    padding: 20px;
+}
+
+
+
+.save-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.footer {
+    padding: 20px;
+}

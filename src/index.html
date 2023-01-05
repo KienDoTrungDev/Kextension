@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/toggle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Titillium+Web:wght@200&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header"> K extension</div>
+        <div class="body">
+            <div class="form-group-container">
+                <div class="form-group-title">Minimum profit :</div>
+                <input type="text" class="form-group-input">
+            </div>
+            <div class="form-group-container">
+                <div class="form-group-title">Maximum total cost :</div>
+                <input type="text" class="form-group-input">
+            </div>
+            <div class="form-group-container">
+                <div class="form-group-title">Email :</div>
+                <textarea type="text" class="form-group-input"></textarea>
+            </div>
+            <div class="form-group-container">
+                <!-- begin toggle markup	 -->
+                <div class="form-group-title">Send mail notification : </div>
+                <label class="toggle" for="uniqueID">
+                    <input type="checkbox" class="toggle__input" id="uniqueID" />
+                    <span class="toggle-track">
+                        <span class="toggle-indicator">
+                            <!-- 	This check mark is optional	 -->
+                            <span class="checkMark">
+                                <svg viewBox="0 0 24 24" id="ghq-svg-check" role="presentation" aria-hidden="true">
+                                    <path
+                                        d="M9.86 18a1 1 0 01-.73-.32l-4.86-5.17a1.001 1.001 0 011.46-1.37l4.12 4.39 8.41-9.2a1 1 0 111.48 1.34l-9.14 10a1 1 0 01-.73.33h-.01z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </span>
+                    </span>
+                </label>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="save-container">
+                <div class="btn btn-primary">Save</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
